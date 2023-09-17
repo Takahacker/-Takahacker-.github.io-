@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Visualização da Câmera</title>
-</head>
-<body>
-  <h1>Visualização da Câmera</h1>
+  <head>
+    <title>Estudas</title>
+  </head>
+  <body>
+    <h1>Escanear página</h1>
 
-  <button id="ligarCamera">Ligar Câmera</button>
-  <button id="desligarCamera">Desligar Câmera</button>
+    <button id="ligarCamera">Ligar Câmera</button>
+    <button id="desligarCamera">Desligar Câmera</button>
 
-  <video id="camera-preview" width="640" height="480" autoplay></video>
+    <video id="camera-preview" width="640" height="480" autoplay></video>
 
-  <script>
-    const videoElement = document.getElementById('camera-preview');
-    const startButton = document.getElementById('ligarCamera');
-    const stopButton = document.getElementById('desligarCamera');
-    let stream = null;
+    <script>
+      const videoElement = document.getElementById("camera-preview");
+      const startButton = document.getElementById("ligarCamera");
+      const stopButton = document.getElementById("desligarCamera");
+      let stream = null;
 
-    startButton.addEventListener('click', async () => {
-      try {
-        stream = await navigator.mediaDevices.getUserMedia({ video: true });
+      startButton.addEventListener("click", async () => {
+        try {
+          stream = await navigator.mediaDevices.getUserMedia({ video: true });
 
-        videoElement.srcObject = stream;
-      } catch (error) {
-        console.error('Erro ao acessar a câmera: ', error);
-      }
-    });
+          videoElement.srcObject = stream;
+        } catch (error) {
+          console.error("Erro ao acessar a câmera: ", error);
+        }
+      });
 
-    stopButton.addEventListener('click', () => {
-      videoElement.srcObject = null;
+      stopButton.addEventListener("click", () => {
+        videoElement.srcObject = null;
 
-      if (stream) {
-        const tracks = stream.getTracks();
-        tracks.forEach(track => track.stop());
-      }
-    });
-  </script>
+        if (stream) {
+          const tracks = stream.getTracks();
+          tracks.forEach((track) => track.stop());
+        }
+      });
+    </script>
+<a href="anotação1.html">Finalizar Scan</a>  
+<a href="Página_escaneada.html">Tirar Foto</a>  
+
 </body>
 </html>
