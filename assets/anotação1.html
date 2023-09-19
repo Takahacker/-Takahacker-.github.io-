@@ -1,91 +1,96 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Preview de PDF</title>
-  <style>
-    /* Estilos personalizados */
-    figure {
-      overflow-x: scroll;
-      white-space: nowrap;
-    }
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Estudas</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      /* Estilos personalizados */
+      figure {
+        overflow-x: scroll;
+        white-space: nowrap;
+      }
 
-    figure img {
-      width: 100%;
-      height: auto;
-    }
+      figure img {
+        width: 100%;
+        height: auto;
+      }
 
-    button {
-      padding: 8px;
-    }
-  </style>
-</head>
-<body>
+      button {
+        padding: 8px;
+      }
+    </style>
+  </head>
+
   
-  <header>
-    <h1>Anotação 1</h1>
-    <a href="menu.html">
-      <img
-        src="img/Icone_menu.png"
-        alt="Ícone do menu"
-        width="40"
-        height="40"
-      />
-      Menu
-  </header>
+  <body>
+    
+    <header>
+      <h1>Anotação 1</h1>
+      <a href="menu.html">
+        <img
+          src="img/Icone_menu.png"
+          alt="Ícone do menu"
+          width="40"
+          height="40"
+        />
+        Menu
+      </a>
+    </header>
 
-  <figure>
-    <img src="pagina1.jpg" alt="Página 1 do PDF">
-    <img src="pagina2.jpg" alt="Página 2 do PDF">
-    <img src="pagina3.jpg" alt="Página 3 do PDF">
-    <img src="pagina4.jpg" alt="Página 4 do PDF">
-    <img src="pagina5.jpg" alt="Página 5 do PDF">
-  </figure>
+    <figure>
+      <img src="pagina1.jpg" alt="Página 1 do PDF">
+      <img src="pagina2.jpg" alt="Página 2 do PDF">
+      <img src="pagina3.jpg" alt="Página 3 do PDF">
+      <img src="pagina4.jpg" alt="Página 4 do PDF">
+      <img src="pagina5.jpg" alt="Página 5 do PDF">
+    </figure>
 
-  <footer>
-    <a href="anotacao1_preview.html">Ler anotação</a>
-    <a href="selecionar_modo_revisao.html">Revisar anotação</a>
-  </footer>
+    <footer>
+      <a href="anotacao1_preview.html">Ler anotação</a>
+      <a href="selecionar_modo_revisao.html">Revisar anotação</a>
+    </footer>
 
-  <script>
-    const figure = document.querySelector('figure');
-    const scrollAmount = figure.clientWidth; // Define a quantidade de scroll, com base na largura do figure
+    <script>
+      const figure = document.querySelector('figure');
+      const scrollAmount = figure.clientWidth; // Define a quantidade de scroll, com base na largura do figure
 
-    let scrollPosition = 0;
+      let scrollPosition = 0;
 
-    function scrollToLeft() {
-      scrollPosition -= scrollAmount;
-      if (scrollPosition < 0) {
-        scrollPosition = 0;
+      function scrollToLeft() {
+        scrollPosition -= scrollAmount;
+        if (scrollPosition < 0) {
+          scrollPosition = 0;
+        }
+        figure.scroll({
+          top: 0,
+          left: scrollPosition,
+          behavior: 'smooth'
+        });
       }
-      figure.scroll({
-        top: 0,
-        left: scrollPosition,
-        behavior: 'smooth'
-      });
-    }
 
-    function scrollToRight() {
-      scrollPosition += scrollAmount;
-      if (scrollPosition > figure.scrollWidth - figure.clientWidth) {
-        scrollPosition = figure.scrollWidth - figure.clientWidth;
+      function scrollToRight() {
+        scrollPosition += scrollAmount;
+        if (scrollPosition > figure.scrollWidth - figure.clientWidth) {
+          scrollPosition = figure.scrollWidth - figure.clientWidth;
+        }
+        figure.scroll({
+          top: 0,
+          left: scrollPosition,
+          behavior: 'smooth'
+        });
       }
-      figure.scroll({
-        top: 0,
-        left: scrollPosition,
-        behavior: 'smooth'
-      });
-    }
 
-    const buttonPrev = document.createElement('button');
-    buttonPrev.textContent = '←';
-    buttonPrev.addEventListener('click', scrollToLeft);
+      const buttonPrev = document.createElement('button');
+      buttonPrev.textContent = '←';
+      buttonPrev.addEventListener('click', scrollToLeft);
 
-    const buttonNext = document.createElement('button');
-    buttonNext.textContent = '→';
-    buttonNext.addEventListener('click', scrollToRight);
+      const buttonNext = document.createElement('button');
+      buttonNext.textContent = '→';
+      buttonNext.addEventListener('click', scrollToRight);
 
-    figure.insertAdjacentElement('beforebegin', buttonPrev);
-    figure.insertAdjacentElement('afterend', buttonNext);
-  </script>
-</body>
-</html>
+      figure.insertAdjacentElement('beforebegin', buttonPrev);
+      figure.insertAdjacentElement('afterend', buttonNext);
+    </script>
+  </body>
+  </html>
