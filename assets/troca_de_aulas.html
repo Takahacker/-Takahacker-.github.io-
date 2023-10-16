@@ -3,20 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>Estudas</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/troca_de_aulas_style.css" />
   </head>
   <body>
     <header>
-      <h1>
-        Troca de aulas
-        <img
-          src="img/troca_de_aulas.png"
-          alt="Ícone de troca de aulas"
-          width="40"
-          height="40"
-        />
-      </h1>
+      <h1>Troca de aulas</h1>
 
-      <a href="menu.html">
+      <a href="menu.html" class="hamb">
         <img
           src="img/Icone_menu.png"
           alt="Ícone do menu"
@@ -28,17 +22,37 @@
     </header>
 
     <main>
-      <p>Disciplina com dúvida</p>
-      <a href="#">
-        Buscar
-        <img src="img/buscar.png" alt="Ícone de buscar" width="40" height="40"
-      /></a>
-      <p>Disciplina que você domina</p>
-      <a href="#">
-        Buscar
-        <img src="img/buscar.png" alt="Ícone de buscar" width="40" height="40"
-      /></a>
-      <h2><a href="resultados.html"> PRÓXIMO </a></h2>
+      <ul class="coluna">
+        <li>
+          <p class="disciplinas">Disciplina com dúvida:</p>
+        </li>
+        <li>
+          <a class="buscar" href="#">
+            <p>Buscar</p>
+            <img
+              src="img/buscar.png"
+              alt="Ícone de buscar"
+              width="40"
+              height="40"
+          /></a>
+        </li>
+        <li>
+          <p class="disciplinas">Disciplina que você domina:</p>
+        </li>
+        <li>
+          <a class="buscar" href="#">
+            <p>Buscar</p>
+            <img
+              src="img/buscar.png"
+              alt="Ícone de buscar"
+              width="40"
+              height="40"
+          /></a>
+        </li>
+        <li class="margin">
+          <a class="proximo" href="resultados.html"> Próximo </a>
+        </li>
+      </ul>
     </main>
   </body>
 </html>
