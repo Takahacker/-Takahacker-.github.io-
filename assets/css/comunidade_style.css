@@ -22,14 +22,21 @@ header{
     border-bottom-right-radius:1rem;
 }
 .anotacao_e_troca{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin:1rem;
     padding:0.3rem;
     width: 20rem;
     border:0.1rem solid #403D79;
     background-color: #403D79;
     border-radius: 1rem;
+    color:white;
 }
 .buscar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin:1rem;
     padding:0.3rem;
     width: 20rem;
@@ -53,4 +60,7 @@ h1{
     width: 4rem;
     height: 4rem;
     margin: .5rem;
+}
+p{
+    margin-top: 1rem;
 }
