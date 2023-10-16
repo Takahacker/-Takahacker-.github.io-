@@ -1,3 +1,8 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #FDF2E6;
+}
 .coluna{
     display:flex;
     flex-direction: column;
@@ -5,10 +10,16 @@
     align-items: center;
 }
 header{
+    width: 100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #403D79;
+    border:0.1rem solid #403D79;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius:1rem;
 }
 .anotacao_e_troca{
     margin:1rem;
@@ -26,14 +37,20 @@ header{
     background-color: white;
     border-radius: 1rem;
 }
-body{
-    background-color: #FDF2E6;
-}
 .linha_reversa{
     display:flex;
     flex-direction: row-reverse;
 }
 h1{
     font-size:2rem;
+    color:white;
     margin-top:1rem;
+}
+.hamb{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4rem;
+    height: 4rem;
+    margin: .5rem;
 }
