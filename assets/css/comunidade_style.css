@@ -1,0 +1,39 @@
+.coluna{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.anotacao_e_troca{
+    margin:1rem;
+    padding:0.3rem;
+    width: 20rem;
+    border:0.1rem solid #403D79;
+    background-color: #403D79;
+    border-radius: 1rem;
+}
+.buscar{
+    margin:1rem;
+    padding:0.3rem;
+    width: 20rem;
+    border:0.1rem solid white;
+    background-color: white;
+    border-radius: 1rem;
+}
+body{
+    background-color: #FDF2E6;
+}
+.linha_reversa{
+    display:flex;
+    flex-direction: row-reverse;
+}
+h1{
+    font-size:2rem;
+    margin-top:1rem;
+}

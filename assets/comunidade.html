@@ -3,33 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <title>Estudas</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/comunidade_style.css" />
   </head>
 
   <body>
     <header>
-      <h1>
-        Comunidade
-        <img
-          src="img/Icone_comunidade.png"
-          alt="Ícone da comunidade"
-          width="40"
-          height="40"
-        />
-      </h1>
-      <a href="menu.html">
-        <img
-          src="img/Icone_menu.png"
-          alt="Ícone do menu"
-          width="40"
-          height="40"
-        />
-        Menu
-      </a>
+      <ul class="linha_reversa">
+        <li>
+          <h1>
+            Comunidade
+          </h1>
+        </li>
+        <li>
+          <a href="menu.html">
+            <img
+              src="img/Icone_menu.png"
+              alt="Ícone do menu"
+              width="40"
+              height="40"
+            />
+          </a>
+        </li>
+      </ul>
     </header>
 
     <main>
-      <ul>
-        <li>
+      <ul class="coluna">
+        <li class="buscar">
           <a href="resultados_2.html">
             <img
               src="img/buscar.png"
@@ -41,8 +42,8 @@
           </a>
         </li>
 
-        <li>
-          <a href="#"> <!--o # no href gera um hyperlink que não redireciona pra nenhum lugar-->
+        <li class="anotacao_e_troca">
+          <a href="#">
             <img
               src="img/aviao.png"
               alt="Ícone de publicar anotações"
@@ -53,7 +54,7 @@
           </a>
         </li>
 
-        <li>
+        <li class="anotacao_e_troca">
           <a href="troca_de_aulas.html">
             <img
               src="img/troca_de_aulas.png"
