@@ -1,70 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8">
     <title>Minhas Disciplinas</title>
-  </head>
-  <body>
-    <header>
-      <h1>Disciplina 1</h1>
-      <a href="menu.html">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/disciplina1_style.css">
+</head>
+<body>
+<header>
+    <h1>Disciplina 1</h1>
+    <a class="hamb" href="menu.html">
         <img
-          src="img/Icone_menu.png"
-          alt="Ícone do menu"
-          width="40"
-          height="40"
+                src="img/Icone_menu.png"
+                alt="Ícone do menu"
+                width="40"
+                height="40"
         />
-        Menu
-      </a>
-    </header>
-    <main>
-      <ul>
+    </a>
+</header>
+<main>
+    <input type="text" name="query" placeholder="Buscar">
+    <a class="Adicionar_anotacao" href="selecionar_modo_adicionar_anotacao.html">Adicionar Anotação +</a>
+
+    <ul>
         <li>
-          <a href="anotação1.html">
-            <img
-              src="img/preview_anotacao1.png"
-              alt="preview anotacao 1"
-              width="40"
-              height="40"
-            />
-            Anotação 1
-          </a>
+            <a class="caderno" href="#">
+                <div class="cabecalho"></div>
+                <p class="title">Anotação 1</p>
+            </a>
         </li>
         <li>
-          <a href="#">
-            <img
-              src="img/preview_anotacao2.png"
-              alt="preview anotacao 2"
-              width="40"
-              height="40"
-            />
-            Anotação 2
-          </a>
+            <a class="caderno" href="#">
+                <div class="cabecalho"></div>
+                <p class="title">Anotação 2</p>
+            </a>
         </li>
         <li>
-          <a href="#">
-            <img
-              src="img/preview_anotacao3.png"
-              alt="preview anotacao 3"
-              width="40"
-              height="40"
-            />
-            Anotação 3
-          </a>
+            <a class="caderno" href="#">
+                <div class="cabecalho"></div>
+                <p class="title">Anotação 3</p>
+            </a>
         </li>
         <li>
-          <a href="#">
-            <img
-              src="img/preview_anotacao4.png"
-              alt="preview anotacao 4"
-              width="40"
-              height="40"
-            />
-            Anotação 4
-          </a>
+            <a class="caderno" href="#">
+                <div class="cabecalho"></div>
+                <p class="title">Anotação 4</p>
+            </a>
         </li>
-        <li><a href="selecionar_modo_adicionar_anotacao.html">Adicionar Anotação +</a></li>
-      </ul>
-    </main>
-  </body>
+    </ul>
+</main>
+</body>
 </html>

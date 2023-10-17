@@ -3,68 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <title>Minhas Disciplinas</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/minhas_disciplinas_style.css">
   </head>
   <body>
     <header>
       <h1>Minhas Disciplinas</h1>
-      <a href="menu.html">
+      <a class="hamb" href="menu.html">
         <img
           src="img/Icone_menu.png"
           alt="Ícone do menu"
           width="40"
           height="40"
         />
-        Menu
         </a>
     </header>
-    <main>
-      <ul>
-        <li>
-          <a href="disciplina1.html">
-            <img
-              src="caminho/para/icone_disciplina1.png"
-              alt="Ícone Disciplina 1"
-              width="40"
-              height="40"
-            />
-            Disciplina 1
-          </a>
-        </li>
-        <li>
+    <main>    
+      <ul class="disciplinas-container">
+        <li class="disciplina disciplina-1">
           <a href="#">
-            <img
-              src="caminho/para/icone_disciplina2.png"
-              alt="Ícone Disciplina 2"
-              width="40"
-              height="40"
-            />
-            Disciplina 2
+            <h2>Disciplina 1</h2>
+            <ul class="info">
+              <li>
+                <img src="icone_anotacao.png" alt="Ícone de anotação">3 anotações
+              </li>
+              <li>
+                <img src="icone_flashcards.png" alt="Ícone de flashcards">8 flashcards
+              </li>
           </a>
+
+          </ul>
         </li>
-        <li>
-          <a href="#">
-            <img
-              src="caminho/para/icone_disciplina3.png"
-              alt="Ícone Disciplina 3"
-              width="40"
-              height="40"
-            />
-            Disciplina 3
-          </a>
+    
+        <li class="disciplina disciplina-2">
+          <h2>Disciplina 2</h2>
+          <ul class="info">
+            <li>
+              <img src="icone_anotacao.png" alt="Ícone de anotação">1 anotação
+            </li>
+            <li>
+              <img src="icone_flashcards.png" alt="Ícone de flashcards">5 flashcards
+            </li>
+          </ul>
         </li>
-        <li>
-          <a href="#">
-            <img
-              src="caminho/para/icone_disciplina4.png"
-              alt="Ícone Disciplina 4"
-              width="40"
-              height="40"
-            />
-            Disciplina 4
-          </a>
+    
+        <li class="disciplina disciplina-3">
+          <h2>Disciplina 3</h2>
+          <ul class="info">
+            <li>
+              <img src="icone_anotacao.png" alt="Ícone de anotação">2 anotações
+            </li>
+            <li>
+              <img src="icone_flashcards.png" alt="Ícone de flashcards">6 flashcards
+            </li>
+          </ul>
         </li>
-        <li><a href="#">Adicionar Disciplina +</a></li>
+    
+        <li class="disciplina disciplina-4">
+          <h2>Disciplina 4</h2>
+          <ul class="info">
+            <li>
+              <img src="icone_anotacao.png" alt="Ícone de anotação">0 anotações
+            </li>
+            <li>
+              <img src="icone_flashcards.png" alt="Ícone de flashcards">4 flashcards
+            </li>
+          </ul>
+        </li>
+
+        <li class="disciplina disciplina-5">
+          <h2>Disciplina 5</h2>
+          <ul class="info">
+            <li>
+              <img src="icone_anotacao.png" alt="Ícone de anotação">0 anotações
+            </li>
+            <li>
+              <img src="icone_flashcards.png" alt="Ícone de flashcards">4 flashcards
+            </li>
+          </ul>
+        </li>
       </ul>
     </main>
+
+    <footer>
+      <a href="#" class="Adicionar_disciplina">
+        <p class="scan-text">Adicionar Disciplina </p>
+      </a>
+        
+     </footer>
   </body>
 </html>
