@@ -125,6 +125,10 @@ img{
     text-decoration:none;
     font-family: 'Manrope', sans-serif;
 }
+.proximo:hover{
+    border: 0.1rem solid #EC8989;
+    background-color: #EC8989;
+}
 .margin{
     margin-top: 3rem;
 }
@@ -133,7 +137,7 @@ img{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin:1rem;
+    margin:0.6rem;
     padding:0.3rem;
     width: 20rem;
     border:0.1rem solid #403D79;
@@ -149,6 +153,7 @@ img{
 }
 input[type="text"] {
     margin-top: 1rem;
+    margin-bottom:1rem;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -188,4 +193,7 @@ figure{
 }
 .espacamento{
     margin:0.5rem;
+}
+.espacamento2{
+    margin-bottom:2rem;
 }
