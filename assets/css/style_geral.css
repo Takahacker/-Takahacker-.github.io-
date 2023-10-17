@@ -111,6 +111,7 @@ img{
     flex-direction:row;
 }
 .disciplinas{
+    margin-top: 1rem;
     font-size: 1.2rem;
     font-family: 'Manrope', sans-serif;
 }
@@ -169,10 +170,6 @@ figure{
     display:flex;
     flex-direction: row;
     align-items: center;
-}
-.publicar_e_troca{
-    position:relative;
-    bottom:0.5rem;
 }
 .resumo{
     margin-bottom:0.6rem;
