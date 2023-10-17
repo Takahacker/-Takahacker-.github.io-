@@ -68,23 +68,26 @@ background-color: #8F65E8;
     align-items: center;
 }
 
-.buscar{
+.resultados{
+    position:relative;
     display:flex;
     color:black;
     text-decoration:none;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin:1rem;
-    padding:0.3rem;
-    width: 20rem;
+    width: 27rem;
     border:0.1rem solid white;
     background-color: white;
     border-radius: 1rem;
+    font-family: 'Manrope', sans-serif;
 }
 h1{
     font-size:2rem;
     color:white;
     margin-top:1rem;
+    font-family: 'Manrope', sans-serif;
 }
 .hamb{
     position: absolute;
@@ -95,11 +98,13 @@ h1{
     margin: .5rem;
 }
 p{
-    margin-top: 1rem;
+    font-family: 'Manrope', sans-serif;
 }
 
 img{
     margin-left:1rem;
+    width:2rem;
+    height:2rem;
 }
 .linha{
     display:flex;
@@ -107,6 +112,7 @@ img{
 }
 .disciplinas{
     font-size: 1.2rem;
+    font-family: 'Manrope', sans-serif;
 }
 .proximo{
     padding-right:2rem;
@@ -116,6 +122,7 @@ img{
     border-radius:2rem;
     color:white;
     text-decoration:none;
+    font-family: 'Manrope', sans-serif;
 }
 .margin{
     margin-top: 3rem;
@@ -124,6 +131,7 @@ img{
     display:flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin:1rem;
     padding:0.3rem;
     width: 20rem;
@@ -132,8 +140,55 @@ img{
     border-radius: 1rem;
     color:white;
     text-decoration:none;
+    font-family: 'Manrope', sans-serif;
 }
 .linha_reversa{
     display:flex;
     flex-direction: row-reverse;
+}
+input[type="text"] {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-sizing: border-box;
+    width: 20rem;
+    padding: 0.5rem;
+    border:0.1rem solid white;
+    border-radius:1rem;
+    font-family: 'Manrope', sans-serif;
+    }
+figure{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+}
+.opcoes{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.publicar_e_troca{
+    position:relative;
+    bottom:0.5rem;
+}
+.resumo{
+    margin-bottom:0.6rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    color:white;
+    border:0.1rem solid #EC8989;
+    background-color: #EC8989;
+    padding:0.3rem;
+    width: 27rem;
+    border-radius: 1rem;
+    font-family: 'Manrope', sans-serif;
+}
+.espacamento{
+    margin:0.5rem;
 }
