@@ -39,10 +39,25 @@ ul{
     align-items: center;
     justify-content: center;
     border-radius:2rem;
-    margin-top: -20rem;
+    margin-top: 35rem;
     font-family: 'Manrope', sans-serif;
 }
 
+.anterior{
+    padding-right:2rem;
+    padding-left: 2rem;
+    background-color:#403D79;
+    width: 10%;
+    height: 20rem;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:2rem;
+    margin-top: -45rem;
+    font-family: 'Manrope', sans-serif;
+}
 
 .concluir {
     border: 1px;
@@ -75,6 +90,8 @@ ul{
     border-radius:2rem;
     font-size: 6rem;
     font-family: 'Manrope', sans-serif;
+    position: absolute;
+    top: 30rem;
 }
 
 
@@ -84,6 +101,11 @@ ul{
 }
 
 .concluir a {
+    color: #FDF2E6;
+    text-decoration: none; 
+}
+
+.anterior a {
     color: #FDF2E6;
     text-decoration: none; 
 }
