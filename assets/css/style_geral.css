@@ -25,15 +25,6 @@ header{
     font-weight: bold;
 }
 
-.hamb{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 4rem;
-    height: 4rem;
-    margin: .5rem;
-}
-
 .rosa{
 background-color: #BC8DEB;
 }
@@ -93,7 +84,6 @@ h1{
     position: absolute;
     left: 0;
     top: 0;
-    width: 4rem;
     height: 4rem;
     margin: .5rem;
 }
