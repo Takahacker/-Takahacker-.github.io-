@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('path/to/font/Manrope-Regular.ttf') format('truetype');
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #FDF2E6;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25rem;
+}
+
+
+.rotated-text {
+    transform: rotate(90deg);
+}
+
+
+.proximo{
+    padding-right:2rem;
+    padding-left: 2rem;
+    background-color:#403D79;
+    width: 10%;
+    height: 20rem;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:2rem;
+    margin-top: -20rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.concluir {
+    border: 1px;
+    position: absolute;
+    background-color:#EC8989;
+    width: 10%;
+    height: 15rem;
+    top: 90rem;
+    right: 10rem;
+    text-align: center;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:2rem;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.flashcards{
+    background-color: white;
+    width: 50%;
+    height: 50rem;
+    font-size:  1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:2rem;
+    font-size: 6rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.proximo a {
+    color: #FDF2E6;
+    text-decoration: none; 
+}
+
+.concluir a {
+    color: #FDF2E6;
+    text-decoration: none; 
+}
