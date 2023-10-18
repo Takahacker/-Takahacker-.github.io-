@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('path/to/font/Manrope-Regular.ttf') format('truetype');
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #FDF2E6;
+}
+
+header{
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #403D79;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    font-size: 2.5rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+.hamb{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4rem;
+    height: 4rem;
+    margin: .5rem;
+}
+
+h1{
+    font-size:2rem;
+    color:#FDF2E6;
+    margin-top:1rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.adicionar{
+    background-color:#403D79;
+    width: 70%;
+    height: 3rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:1rem;
+    position: absolute;
+    top: 9rem;
+    font-family: 'Manrope', sans-serif;
+    color:#FDF2E6;
+    text-decoration: none;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head-caixa{
+    background-color:#EC8989;
+    width: 63%;
+    height: 3.6rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:1rem;
+    position: absolute;
+    top: 13.5rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.caixa{
+    background-color:white;
+    width: 63%;
+    height: 8rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:2rem;
+    position: absolute;
+    top: 15rem;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+}
+
