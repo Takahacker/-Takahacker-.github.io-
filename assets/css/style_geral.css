@@ -187,3 +187,18 @@ figure{
 .espacamento2{
     margin-bottom:2rem;
 }
+h2{
+    margin:2rem;
+    font-size:2rem;
+    color:#403D79;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+.perfil{
+    margin-top:2rem;
+    border-radius: 7rem;
+}
