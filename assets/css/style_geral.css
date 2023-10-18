@@ -61,3 +61,139 @@ background-color: #91CA83;
 .violeta{
 background-color: #8F65E8;
 }
+.coluna{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultados{
+    position:relative;
+    display:flex;
+    color:black;
+    text-decoration:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+    width: 27rem;
+    border:0.1rem solid white;
+    background-color: white;
+    border-radius: 1rem;
+    font-family: 'Manrope', sans-serif;
+}
+h1{
+    font-size:2rem;
+    color:white;
+    margin-top:1rem;
+    font-family: 'Manrope', sans-serif;
+}
+.hamb{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4rem;
+    height: 4rem;
+    margin: .5rem;
+}
+p{
+    font-family: 'Manrope', sans-serif;
+}
+
+img{
+    margin-left:1rem;
+    width:2rem;
+    height:2rem;
+}
+.linha{
+    display:flex;
+    flex-direction:row;
+}
+.disciplinas{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Manrope', sans-serif;
+}
+.proximo{
+    padding-right:2rem;
+    padding-left: 2rem;
+    background-color:#CBC3C3;
+    border: 0.1rem solid #CBC3C3;
+    border-radius:2rem;
+    color:white;
+    text-decoration:none;
+    font-family: 'Manrope', sans-serif;
+}
+.proximo:hover{
+    border: 0.1rem solid #EC8989;
+    background-color: #EC8989;
+}
+.margin{
+    margin-top: 3rem;
+}
+.anotacao_e_troca{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0.6rem;
+    padding:0.3rem;
+    width: 20rem;
+    border:0.1rem solid #403D79;
+    background-color: #403D79;
+    border-radius: 1rem;
+    color:white;
+    text-decoration:none;
+    font-family: 'Manrope', sans-serif;
+}
+.linha_reversa{
+    display:flex;
+    flex-direction: row-reverse;
+}
+input[type="text"] {
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-sizing: border-box;
+    width: 20rem;
+    padding: 0.5rem;
+    border:0.1rem solid white;
+    border-radius:1rem;
+    font-family: 'Manrope', sans-serif;
+    }
+figure{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+}
+.opcoes{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.resumo{
+    margin-bottom:0.6rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    color:white;
+    border:0.1rem solid #EC8989;
+    background-color: #EC8989;
+    padding:0.3rem;
+    width: 27rem;
+    border-radius: 1rem;
+    font-family: 'Manrope', sans-serif;
+}
+.espacamento{
+    margin:0.5rem;
+}
+.espacamento2{
+    margin-bottom:2rem;
+}
