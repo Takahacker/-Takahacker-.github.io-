@@ -93,15 +93,13 @@ ul{
 
 .flashcards-verso{
     background-color: white;
-    top: 30rem;
-    width: 50%;
-    height: 50rem;
+    top: 13rem;
+    width: 54%;
+    height: 23rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    border-radius:2rem;
-    font-size: 6rem;
+    border-radius: 3rem;
     font-family: 'Manrope', sans-serif;
     position: absolute;
     
@@ -111,6 +109,13 @@ ul{
     font-size: 2rem;
     color:black;
     text-decoration: none; 
+}
+
+.flashcards-verso a {
+    font-size: 1.5rem;
+    color:black;
+    text-decoration: none; 
+    text-align: center;
 }
 
 .proximo a {
@@ -126,4 +131,61 @@ ul{
 .anterior a {
     color: #FDF2E6;
     text-decoration: none; 
+}
+
+.facil{
+    border: 1px;
+    position: absolute;
+    background-color: #91CA83;
+    width: 23%;
+    height: 3.3em;
+    top: 10rem;
+    left: 0rem;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:1rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+
+}
+
+.medio{
+    border: 1px;
+    position: absolute;
+    background-color: #F0CE76;
+    width: 23%;
+    height: 3.3em;
+    top: 22.5rem;
+    left: 0rem;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:1rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+
+}
+
+.dificil{
+    border: 1px;
+    position: absolute;
+    background-color: #EC8989;
+    width: 23%;
+    height: 3.3em;
+    top: 35rem;
+    left: 0rem;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:1rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+
 }
