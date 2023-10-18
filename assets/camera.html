@@ -3,43 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>Estudas</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/camera_style.css">
   </head>
   <body>
-    <h1>Escanear página</h1>
+    <div id="camera-container">
+        <video id="video-preview" autoplay></video>
+        <a href="Página_escaneada.html" id="capture-button"></a>
+    </div>
 
-    <button id="ligarCamera">Ligar Câmera</button>
-    <button id="desligarCamera">Desligar Câmera</button>
-
-    <video id="camera-preview" width="640" height="480" autoplay></video>
-
-    <script>
-      const videoElement = document.getElementById("camera-preview");
-      const startButton = document.getElementById("ligarCamera");
-      const stopButton = document.getElementById("desligarCamera");
-      let stream = null;
-
-      startButton.addEventListener("click", async () => {
-        try {
-          stream = await navigator.mediaDevices.getUserMedia({ video: true });
-
-          videoElement.srcObject = stream;
-        } catch (error) {
-          console.error("Erro ao acessar a câmera: ", error);
-        }
-      });
-
-      stopButton.addEventListener("click", () => {
-        videoElement.srcObject = null;
-
-        if (stream) {
-          const tracks = stream.getTracks();
-          tracks.forEach((track) => track.stop());
-        }
-      });
-    </script>
-<a href="anotação1.html">Finalizar Scan</a>  
-<a href="Página_escaneada.html">Tirar Foto</a>  
-
+    <script src="js/camera.js"></script>
 </body>
 </html>

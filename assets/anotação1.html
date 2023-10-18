@@ -3,23 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <title>Estudas</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <style>
-      /* Estilos personalizados */
-      figure {
-        overflow-x: scroll;
-        white-space: nowrap;
-      }
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_geral.css">
+    <link rel="stylesheet" href="css/anotacao1_style.css">
 
-      figure img {
-        width: 100%;
-        height: auto;
-      }
-
-      button {
-        padding: 8px;
-      }
-    </style>
   </head>
 
   
@@ -27,70 +14,43 @@
     
     <header>
       <h1>Anotação 1</h1>
-      <a href="menu.html">
+      <a class="hamb" href="menu.html">
         <img
           src="img/Icone_menu.png"
           alt="Ícone do menu"
           width="40"
           height="40"
         />
-        Menu
       </a>
     </header>
+    <main>
+      <ul class="visualizador">
+        <li class="botao roxo">
+          <a href="#">
+            <p class="seta">&lt;</p>
+          </a>
+        </li>
+        <li class="página">
+        </li>
+        <li class="botao roxo">
+          <a href="#">
+            <p class="seta">&gt;</p>
+          </a>
+        </li>
+      </ul>
 
-    <figure>
-      <img src="pagina1.jpg" alt="Página 1 do PDF">
-      <img src="pagina2.jpg" alt="Página 2 do PDF">
-      <img src="pagina3.jpg" alt="Página 3 do PDF">
-      <img src="pagina4.jpg" alt="Página 4 do PDF">
-      <img src="pagina5.jpg" alt="Página 5 do PDF">
-    </figure>
+      <p class="descricao">Página 1 de 5</p>
+
+    </main>
 
     <footer>
-      <a href="anotacao1_preview.html">Ler anotação</a>
-      <a href="selecionar_modo_revisao.html">Revisar anotação</a>
+      <a href="#" class="Adicionar_anotacao">
+        <p class="scan-text">Ler Anotação</p>
+      </a>
+
+      <a href="selecionar_modo_revisao.html" class="Adicionar_anotacao">
+        <p class="scan-text">Revisar</p>
+      </a>
     </footer>
-
-    <script>
-      const figure = document.querySelector('figure');
-      const scrollAmount = figure.clientWidth; // Define a quantidade de scroll, com base na largura do figure
-
-      let scrollPosition = 0;
-
-      function scrollToLeft() {
-        scrollPosition -= scrollAmount;
-        if (scrollPosition < 0) {
-          scrollPosition = 0;
-        }
-        figure.scroll({
-          top: 0,
-          left: scrollPosition,
-          behavior: 'smooth'
-        });
-      }
-
-      function scrollToRight() {
-        scrollPosition += scrollAmount;
-        if (scrollPosition > figure.scrollWidth - figure.clientWidth) {
-          scrollPosition = figure.scrollWidth - figure.clientWidth;
-        }
-        figure.scroll({
-          top: 0,
-          left: scrollPosition,
-          behavior: 'smooth'
-        });
-      }
-
-      const buttonPrev = document.createElement('button');
-      buttonPrev.textContent = '←';
-      buttonPrev.addEventListener('click', scrollToLeft);
-
-      const buttonNext = document.createElement('button');
-      buttonNext.textContent = '→';
-      buttonNext.addEventListener('click', scrollToRight);
-
-      figure.insertAdjacentElement('beforebegin', buttonPrev);
-      figure.insertAdjacentElement('afterend', buttonNext);
-    </script>
   </body>
   </html>
