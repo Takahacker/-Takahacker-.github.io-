@@ -81,10 +81,8 @@ h1{
     position: absolute;
     left: 0;
     top: 0;
-    height: 4rem;
-    margin: 1rem;
-    width:2rem;
-    transform: scale(2);
+    height: 5rem;
+    transform: scale(1.4);
 }
 p{
     font-family: 'Manrope', sans-serif;
@@ -275,11 +273,8 @@ h2{
     left: 3.7rem;
     top: 2.2rem;
     color: #403D79;
-<<<<<<< HEAD
     font-size: 1.4rem;
+    
 }
-=======
-    font-size: 1.3rem;
-    font-weight: bold;
-}
->>>>>>> 8086f73 (quizz)
+   
+
