@@ -20,7 +20,7 @@ header{
     background-color: #403D79;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
 }
@@ -65,15 +65,15 @@ background-color: #8F65E8;
     color:black;
     text-decoration:none;
     flex-direction: column;
-    margin: 1rem;
+    margin: 10rem;
     width: 27rem;
     border:0.1rem solid white;
     background-color: white;
     border-radius: 1rem;
     font-family: 'Manrope', sans-serif;
+    transform: scale(1.8);
 }
 h1{
-    font-size:2rem;
     color:white;
     margin-top:1rem;
     font-family: 'Manrope', sans-serif;
@@ -83,14 +83,16 @@ h1{
     left: 0;
     top: 0;
     height: 4rem;
-    margin: .5rem;
+    margin: 1rem;
+    width:2rem;
+    transform: scale(2);
 }
 p{
     font-family: 'Manrope', sans-serif;
 }
 
 img{
-    margin-left:1rem;
+    margin:1rem;
     width:2rem;
     height:2rem;
 }
@@ -99,9 +101,11 @@ img{
     flex-direction:row;
 }
 .disciplinas{
-    margin-top: 1rem;
-    font-size: 1.2rem;
+    margin-top: 5rem;
+    font-size: 3rem;
     font-family: 'Manrope', sans-serif;
+    font-weight:bold;
+    color:#403D79;
 }
 .proximo{
     padding-right:2rem;
@@ -118,14 +122,15 @@ img{
     background-color: #EC8989;
 }
 .margin{
-    margin-top: 3rem;
+    margin: 6rem;
+    transform: scale(4.5);
 }
 .anotacao_e_troca{
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin:0.6rem;
+    margin:6rem;
     padding:0.3rem;
     width: 20rem;
     border:0.1rem solid #403D79;
@@ -134,14 +139,15 @@ img{
     color:white;
     text-decoration:none;
     font-family: 'Manrope', sans-serif;
+    transform: scale(2.5);
 }
 .linha_reversa{
     display:flex;
     flex-direction: row-reverse;
 }
 input[type="text"] {
-    margin-top: 1rem;
-    margin-bottom:1rem;
+    margin-top: 5rem;
+    margin-bottom:3rem;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -151,6 +157,7 @@ input[type="text"] {
     border:0.1rem solid white;
     border-radius:1rem;
     font-family: 'Manrope', sans-serif;
+    transform: scale(2.5);
     }
 figure{
     display:flex;
@@ -174,7 +181,7 @@ figure{
     border:0.1rem solid #EC8989;
     background-color: #EC8989;
     padding:0.3rem;
-    width: 27rem;
+    width: 26.3rem;
     border-radius: 1rem;
     font-family: 'Manrope', sans-serif;
 }
@@ -182,11 +189,16 @@ figure{
     margin:0.5rem;
 }
 .espacamento2{
-    margin-bottom:2rem;
+    margin-top:1.5rem;
+    margin-bottom:5rem;
+    transform: scale(2.5);
+}
+.espacamento3{
+    margin-bottom:0.5rem;
 }
 h2{
-    margin:2rem;
-    font-size:2rem;
+    margin:3rem;
+    font-size:3rem;
     color:#403D79;
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
@@ -196,6 +208,49 @@ h2{
     flex-direction: row;
 }
 .perfil{
-    margin-top:2rem;
+    margin:15rem;
     border-radius: 7rem;
+    transform: scale(3);
+}
+.disciplinas2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:7.5rem;
+    background-color:#F0CE76;
+    color:#403D79;
+    padding:1rem;
+    border-radius:1rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    transform:scale(2.5)
+    
+}
+.setas{
+    display:flex;
+    flex-direction: column;
+    margin-right:1.5rem;
+}
+.rotacao{
+    transform: rotate(180deg);
+  }
+.estrelas{
+    margin:1rem;
+    width:4rem;
+    height:4rem;
+}
+.seta_direita{
+    margin:1rem;
+    width:5rem;
+    height:5rem;
+}
+.seta_esquerda{
+    margin:1rem;
+    width:5rem;
+    height:5rem;
+    transform: rotate(180deg);
+}
+.espacamento4{
+    transform: scale(3);
+    margin:7rem;
 }
