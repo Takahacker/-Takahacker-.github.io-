@@ -277,3 +277,26 @@ h2{
     color: #403D79;
     font-size: 1.4rem;
 }
+.solicitacao_aceita{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:5rem;
+    font-size:6rem;
+    color:#403D79;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+.espacamento5{
+    margin:1rem;
+}
+.conversar{
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    color:#403D79;
+    font-size: 3rem;
+}
+.chat{
+    margin:12rem;
+    transform: scale(10);
+}

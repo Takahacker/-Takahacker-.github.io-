@@ -3,26 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <title>Estudas</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style_geral.css" />
   </head>
   <body>
     <header>
-      <a href="menu.html">
-        <img
-          src="img/Icone_menu.png"
-          alt="Ícone do menu"
-          width="40"
-          height="40"
-        />
-        Menu
+      <h1>Troca de aulas</h1>
+      <a class="hamb" href="menu.html">
+        <img src="img/Icone_menu.png" alt="Ícone do menu" />
       </a>
     </header>
     <main>
-      <h1>Sua solicitação foi aceita!</h1>
-      <h2>
-        <a href="chat3.html">Conversar com Sofia Martins</a>
-        <img src="img/chat.png" alt="Ícone do chat" width="40" height="40" />
-      </h2>
+      <ul class="solicitacao_aceita">
+        <li class="espacamento5">Sua solicitação</li>
+        <li class="espacamento5">foi aceita!</li>
+      </ul>
+      <ul class="coluna">
+        <li>
+          <a class="conversar" href="chat3.html">Conversar com Sofia Martins</a>
+        </li>
+        <li>
+          <a href="chat3.html"><img class="chat" src="img/chat.png" alt="icone_chat" /></a>
+        </li>
+      </ul>
     </main>
   </body>
 </html>
+
