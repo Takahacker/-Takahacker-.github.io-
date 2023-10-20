@@ -1,17 +1,18 @@
-@font-face {
-    font-family: 'Manrope';
-    src: url('path/to/font/Manrope-Regular.ttf') format('truetype');
-}
-
-html,body{
+html, body {
     height: 100%;
     width: 100%;
-    background-color: #FDF2E6;
-}
-
-header{
-    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
     flex-direction: column;
+    background-color: #FDF2E6;
+  }
+  
+  header {
+    position: relative;
     width: 100%;
     height: 7rem;
     display: flex;
@@ -23,137 +24,123 @@ header{
     font-size: 2.5rem;
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
-}
-
-h1{
     color: #FDF2E6;
-}
-
-.hamb{
+  }
+  
+  .hamb {
     position: absolute;
     left: 0;
     top: 0;
     width: 4rem;
     height: 4rem;
     margin: .5rem;
-}
-
-.main {
-    width: 100%;
-    max-width: 960px; 
-    margin: 0 auto; 
+  }
+  
+  main {
+    flex-grow: 1;
+    display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.disciplinas-container {
+  }
+  
+  .disciplinas-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    grid-gap: 0.3rem;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-left: 4rem;
-}
-
-
-
-.disciplina {
-    flex-basis: 48%;
+    grid-gap: 1rem; 
+    justify-items: center;
+    margin: 1rem 4rem 2rem; 
+  }
+  
+  .disciplina {
     list-style: none;
-    width: 15rem;
-    height: 10rem;
-    margin-bottom: 1rem; /* Adicionado margem inferior */
+    width: 20rem;
+    height: 15rem;
     background-color: #FDF2E6;
-    border-radius: 10px;
+    border-radius: 1.5rem;
     padding: 1rem;
-}
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Manrope', sans-serif;
 
-.disciplina h2 {
+  }
+
+
+  .disciplina h2 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-}
-
-.disciplina .info {
+    color: white;
+    margin-top: 4rem;
+  }
+  
+  .disciplina .info {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.disciplina .info li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .disciplina .info li {
     display: flex;
     align-items: center;
     margin-top: 0.5rem;
     font-size: 0.8rem;
-}
-
-.disciplina .info li img {
+  }
+  
+  .disciplina .info li img {
     width: 1rem;
     height: 1rem;
     margin-right: 0.5rem;
-}
-
-.disciplina.disciplina-1 {
+  }
+  
+  .disciplina.disciplina-1 {
     background-color: #EC8989;
-    width: 7.5rem;
-    height: 7rem;
-    margin: .5rem;
-}
-
-.disciplina.disciplina-2 {
+  }
+  
+  .disciplina.disciplina-2 {
     background-color: #91CA83;
-    width: 7.5rem;
-    height: 7rem;
-    margin: .5rem;
-}
-
-.disciplina.disciplina-3 {
+  }
+  
+  .disciplina.disciplina-3 {
     background-color: #90C3FE;
-    width: 7.5rem;
-    height: 7rem;
-    margin: .5rem;
-}
-
-.disciplina.disciplina-4 {
+  }
+  
+  .disciplina.disciplina-4 {
     background-color: #F0CE76;
-    width: 7.5rem;
-    height: 7rem;
-    margin: .5rem;
-}
-
-.disciplina.disciplina-5 {
+  }
+  
+  .disciplina.disciplina-5 {
     background-color: #BC8DEB;
-    width: 7.5rem;
-    height: 7rem;
-    margin: .5rem;
-}
-
-footer {
-    position: relative;
+  }
+  
+  footer {
     width: 100%;
-    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.Adicionar_disciplina {
+    margin-bottom: 3rem; 
+  }
+  
+  .Adicionar_disciplina {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 10rem;
     height: 4rem;
-    margin: 0.5rem;
     border-radius: 7%;
     background-color: #403D79;
-    margin-top: 4rem;
-}
-
-.scan-text{
+  }
+  
+  .scan-text {
     color: white;
     text-decoration: none;
-}
-
-.scan-text:hover {
-   text-decoration: underline;
-}
+  }
+  
+  .scan-text:hover {
+    text-decoration: underline;
+  }
+  
