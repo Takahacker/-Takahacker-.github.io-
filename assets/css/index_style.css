@@ -1,180 +1,200 @@
-html,body{
+@font-face {
+    font-family: 'Manrope';
+    src: url('path/to/font/Manrope-Regular.ttf') format('truetype');
+  }
+
+  html,body{
     height: 100%;
     width: 100%;
     background-color: #FDF2E6;
-}
+  }
 
-header{
+  header{
     position: relative;
     flex-direction: column;
     width: 100%;
-    height: 17rem;
+    height: 25rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
-}
+    font-family: 'Manrope', sans-serif;
+  }
 
 
-.titulo{
-    font-size: 2.5rem;
+  .titulo{
+    font-size: 3.75rem;
     position: absolute;
     top: 0;
-    margin-top:5rem;
-}
-.hamb{
+    margin-top: 8rem;
+    color: #403D79;
+  }
+  .hamb{
     position: absolute;
     left: 0;
     top: 0;
-    width: 4rem;
-    height: 4rem;
-    margin: .5rem;
-}
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: .625rem;
+  }
 
-.usuário{
+  .usuário{
+    transform: scale(1.5);
     position: absolute;
     top: 0;
     right: 0;
-    width:6rem;
-    height: 6rem;
-    margin: .5rem;
+    width: 9.375rem;
+    height: 9.375rem;
+    margin: .625rem;
     border-radius: 50%;
-    margin-top: 7rem;
-    margin-right: 1rem;
-}
+    margin-top: 10.5rem;
+    margin-right: 1.875rem;
+  }
 
-.nome_usuário{
+  .nome_usuário{
+    transform: scale(1.5);
     position: absolute;
     left: 0;
-    margin-left: 3rem;
-    font-size: 2rem;
-    margin-top: 4rem;
-}
+    margin-left: 4.5rem;
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
 
-.curso_usuário{
+  .curso_usuário{
+    transform: scale(1.5);
     position: absolute;
     left: 0;
-    margin-left: 3rem;
-    margin-top: 11rem;
-}
+    margin-left: 4.5rem;
+    margin-top: 16.5rem;
+  }
 
-.main {
+  .main {
+    transform: scale(2.25);
     position: relative;
     width: 100%;
-    height: 100vh; 
+    height: 100%; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+  }
 
-input[type="text"] {
-margin-top: 1rem;
-margin-left: auto;
-margin-right: auto;
-display: block;
-box-sizing: border-box;
-width: 20rem;
-padding: 0.5rem;
-}
+  input[type="text"] {
+    margin-top: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-sizing: border-box;
+    width: 28.125rem;
+    padding: 1.25rem;
+  }
 
-.disciplinas-container {
-display: flex;
-overflow-x: auto;
-margin-top: 1rem;
-}
+  .disciplinas-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 1.25rem;
+  }
 
-.disciplina {
-list-style: none;
-width: 15rem;
-height: 10rem;
-margin-right: 1rem;
-background-color: #FDF2E6;
-border-radius: 10px;
-padding: 1rem;
-}
+  .disciplina {
+    list-style: none;
+    width: 21.875rem;
+    height: 14.375rem;
+    margin-right: 1.25rem;
+    background-color: #FDF2E6;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    font-family: 'Manrope', sans-serif;
+  }
 
-.disciplina h2 {
-font-size: 1.5rem;
-margin-bottom: 0.5rem;
-}
+  .disciplina h2 {
+    font-size: 2.8125rem;
+    margin-bottom: 0.625rem;
+    color: white;
+  }
 
-.disciplina .info {
-list-style: none;
-margin: 0;
-padding: 0;
-}
+  .disciplina .info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
 
-.disciplina .info li {
-display: flex;
-align-items: center;
-margin-top: 0.5rem;
-font-size: 0.8rem;
-}
+  .disciplina .info li {
+    display: flex;
+    align-items: center;
+    margin-top: 0.625rem;
+    font-size: 1rem;
+  }
 
-.disciplina .info li img {
-width: 1rem;
-height: 1rem;
-margin-right: 0.5rem;
-}
+  .disciplina .info li img {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.625rem;
+  }
 
-.disciplina.disciplina-1 {
-background-color: #EC8989;
-width: 7.5rem;
-height: 7rem;
-margin: .5rem
-}
+  .disciplina.disciplina-1 {
+    background-color: #EC8989;
+    width: 11.25rem;
+    height: 10.625rem;
+    margin: .625rem;
+  }
 
-.disciplina.disciplina-2 {
-background-color: #91CA83;
-width: 7.5rem;
-height: 7rem;
-margin: .5rem
-}
+  .disciplina.disciplina-2 {
+    background-color: #91CA83;
+    width: 11.25rem;
+    height: 10.625rem;
+    margin: .625rem;
+  }
 
-.disciplina.disciplina-3 {
-background-color: #90C3FE;
-width: 7.5rem;
-height: 7rem;
-margin: .5rem
-}
+  .disciplina.disciplina-3 {
+    background-color: #90C3FE;
+    width: 11.25rem;
+    height: 10.625rem;
+    margin: .625rem;
+  }
 
-.disciplina.disciplina-4 {
-background-color: #F0CE76;
-width: 7.5rem;
-height: 7rem;
-margin: .5rem
-}
+  .disciplina.disciplina-4 {
+    background-color: #F0CE76;
+    width: 11.25rem;
+    height: 10.625rem;
+    margin: .625rem;
+  }
 
-footer {
-position: relative;
-width: 100%;
-height: 5rem;
-display: flex;
-justify-content: center;
-align-items: center;
-}
+  footer {
+    position: relative;
+    width: 100%;
+    height: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+  }
 
-.Adicionar_anotacao {
+  .Adicionar_anotacao {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 10rem;
-    height: 4rem;
-    margin: 0.5rem;
-    border-radius: 10%;
+    width: 18.75rem;
+    height: 7.5rem;
+    margin: 1.875rem;
+    border-radius: 1rem;
     background-color: #403D79;
-    margin-top: 4rem;
-  }
-  
-  .scan-text{
-    color: white;
+    margin-top: 10rem;
     text-decoration: none;
   }
-  
+
+  .scan-text {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+  }
+
   .scan-text:hover {
     text-decoration: underline;
   }
