@@ -3,85 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <title>Estudas</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
-        margin: 0;
-        padding: 0;
-      }
-
-      .chat-container {
-        max-width: 300px;
-        margin: 20px auto;
-        background-color: #fff;
-        border: 1px solid #ccc;
-        padding: 10px;
-      }
-
-      .message {
-        background-color: #f9f9f9;
-        border: 1px solid #ccc;
-        margin-bottom: 10px;
-        padding: 5px;
-      }
-
-      .user-message {
-        text-align: right;
-      }
-
-      .other-message {
-        text-align: left;
-      }
-
-      .message-header {
-        font-weight: bold;
-      }
-
-      .timestamp {
-        font-size: 0.8em;
-        color: #777;
-      }
-    </style>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/chat_style.css" />
   </head>
   <body>
     <header>
-      <a href="menu.html">
-        <img
-          src="img/Icone_menu.png"
-          alt="Ícone do menu"
-          width="40"
-          height="40"
-        />
-        Menu
+      <h1>Chat com Sofia Martins</h1>
+      <a class="hamb" href="menu.html">
+        <img src="img/Icone_menu.png" alt="Ícone do menu" />
       </a>
     </header>
-    <div class="chat-container">
-      <div class="message other-message">
-        <p class="message-header">Sofia Martins</p>
-        <p>
-          Oi, me ajuda num exercício rapidinho?
-        </p>
-        <p class="timestamp">10:30 AM</p>
-      </div>
-
-      <div class="message user-message">
-        <p class="message-header">Felipe</p>
-        <p>Com certeza! Qual?</p>
-        <p class="timestamp">10:35 AM</p>
-      </div>
-
-      <div class="message other-message">
-        <p class="message-header">Sofia Martins</p>
-        <p>Já mando aqui. E você? Está com dificuldade no que?</p>
-        <p class="timestamp">10:40 AM</p>
-      </div>
-
-      <div class="message user-message">
-        <p class="message-header">Felipe</p>
-        <p>Nesse exercício..</p>
-        <p class="timestamp">10:45 AM</p>
-      </div>
-    </div>
+    <main>
+      <img class="display_chat" src="img/chat_display.PNG" alt="chat_display">
+    </main>
   </body>
 </html>

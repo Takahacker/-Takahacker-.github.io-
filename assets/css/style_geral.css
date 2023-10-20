@@ -81,8 +81,9 @@ h1{
     position: absolute;
     left: 0;
     top: 0;
+    margin:2rem;
     height: 5rem;
-    transform: scale(1.4);
+    transform: scale(2.4);
 }
 p{
     font-family: 'Manrope', sans-serif;
