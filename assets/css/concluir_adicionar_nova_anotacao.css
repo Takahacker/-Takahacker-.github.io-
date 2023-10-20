@@ -1,0 +1,36 @@
+.Concluir{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    width: 10rem;
+    height: 4rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: #403D79;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer{
+flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.scan-text{
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.title{
+    margin-top: 2rem;
+    font-family: 'Manrope', sans-serif;
+}

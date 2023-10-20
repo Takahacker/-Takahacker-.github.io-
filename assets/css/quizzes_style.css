@@ -3,6 +3,15 @@
     src: url('path/to/font/Manrope-Regular.ttf') format('truetype');
 }
 
+.roxo{
+    color: #403D79;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Manrope', sans-serif;
+}
+
 html,body{
     height: 100%;
     width: 100%;
@@ -92,6 +101,10 @@ li{
     margin:0.8rem;
 }
 
+.espacamento-esquerda{
+    margin-left:1rem;
+}
+
 .quizzes{
     position:relative;
     display:flex;
@@ -104,4 +117,171 @@ li{
     border-radius: 1.5rem;
     font-family: 'Manrope', sans-serif;
     top:6rem;
+}
+
+.titulo{
+    position: relative;
+    left: 3.7rem;
+    top: 2.2rem;
+    font-size: 1.4rem;
+    
+}
+
+.pergunta1{
+    position:relative;
+    display:flex;
+    color:black;
+    text-decoration:none;
+    padding:1rem;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 3rem;
+    width: 23rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 2rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.pergunta2{
+    position:relative;
+    display:flex;
+    color:black;
+    text-decoration:none;
+    padding:1rem;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 3rem;
+    width: 23rem;
+    height: 5rem;
+    background-color: white;
+    border-radius: 2rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.coluna{
+    display:flex;
+    flex-direction: column;
+}
+
+.linha{
+    display:flex;
+    flex-direction:row;
+    justify-content: left;
+}
+
+.resposta1{
+    position:relative;
+    display:flex;
+    color:black;
+    text-decoration:none;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: -4.5rem;
+    width: 23rem;
+    height: 16rem;
+    font-family: 'Manrope', sans-serif;
+    justify-content: space-around;
+}
+
+.resposta2{
+
+    position:relative;
+    display:flex;
+    color:black;
+    text-decoration:none;
+    flex-direction: column;
+    font-size: 1.2rem;
+    bottom:5.5rem;
+    width: 19rem;
+    height: 21rem;
+    font-family: 'Manrope', sans-serif;
+    justify-content: space-around;
+    left:.6rem;
+}
+
+.circulo{
+    background-color: #403D79;
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    position: relative;
+    top: 3.5rem;
+    left:-0.5rem;
+    color: #FDF2E6;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.circulo2{
+    background-color: #403D79;
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    position: relative;
+    top: 7.5rem;
+    right:3.5rem;
+    color: #FDF2E6;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.proximo{
+    background-color:#403D79;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:1.2rem;
+    position: absolute;
+    top: 41rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.finalizar{
+    background-color: #EC8989;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius:1.2rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.proximo a {
+    color: #FDF2E6;
+    text-decoration: none; 
+}
+
+.finalizar a {
+    color: #FDF2E6;
+    text-decoration: none; 
+}
+
+.centro{
+    align-items: center;
+    justify-content: center;
+}
+
+.letras{
+    display:flex;
+    font-size: 1.2rem;
+    flex-direction: column;
+    height: 17.5rem;
+    width: 3rem;
+    justify-content: space-around;
+    position: relative;
+    left: 4rem;
+    bottom: 23.5rem;
+
 }
