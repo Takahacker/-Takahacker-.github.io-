@@ -252,21 +252,6 @@ h2{
     margin:7rem;
 }
 
-.perguntas{
-    position:relative;
-    display:flex;
-    color:black;
-    text-decoration:none;
-    padding:1rem;
-    flex-direction: column;
-    font-size: 1.5rem;
-    margin: 3rem;
-    width: 23rem;
-    height: 10rem;
-    background-color: white;
-    border-radius: 2rem;
-    font-family: 'Manrope', sans-serif;
-}
 
 .titulo{
     position: relative;
@@ -274,4 +259,27 @@ h2{
     top: 2.2rem;
     color: #403D79;
     font-size: 1.4rem;
+}
+.solicitacao_aceita{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:5rem;
+    font-size:6rem;
+    color:#403D79;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+.espacamento5{
+    margin:1rem;
+}
+.conversar{
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    color:#403D79;
+    font-size: 3rem;
+}
+.chat{
+    margin:12rem;
+    transform: scale(10);
 }
