@@ -29,31 +29,31 @@ ul{
 
 .proximo{
     background-color:#403D79;
-    width: 15%;
-    height: 10rem;
-    font-size: 2rem;
+    width: 13%;
+    height: 20rem;
+    font-size: 3rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius:1rem;
+    border-radius:2rem;
     position: absolute;
-    top: 38rem;
+    top: 106rem;
     font-family: 'Manrope', sans-serif;
 }
 
 .anterior{
     background-color:#403D79;
-    width: 15%;
-    height: 10rem;
-    font-size: 2rem;
+    width: 13%;
+    height: 20rem;
+    font-size: 3rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius:1rem;
+    border-radius:2rem;
     position: absolute;
-    top: 1rem;
+    top: 4rem;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -61,44 +61,44 @@ ul{
     border: 1px;
     position: absolute;
     background-color:#EC8989;
-    width: 10%;
-    height: 7rem;
-    top: 40rem;
+    width: 13%;
+    height: 20rem;
+    top: 110rem;
     right: 3rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius:1rem;
+    border-radius: 2rem;
     font-family: 'Manrope', sans-serif;
 
 }
 
 .flashcards{
     background-color: white;
-    top: 13rem;
-    width: 54%;
-    height: 23rem;
+    top: 30rem;
+    width: 70%;
+    height: 70rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     border-radius: 3rem;
-    font-size: 6rem;
     font-family: 'Manrope', sans-serif;
     position: absolute;
 }
 
 .flashcards-verso{
     background-color: white;
-    top: 13rem;
-    width: 54%;
-    height: 23rem;
+    top: 30rem;
+    width: 70%;
+    height: 70rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     border-radius: 3rem;
     font-family: 'Manrope', sans-serif;
     position: absolute;
@@ -106,13 +106,13 @@ ul{
 }
 
 .flashcards a {
-    font-size: 2rem;
+    font-size: 6rem;
     color:black;
     text-decoration: none; 
 }
 
 .flashcards-verso a {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     color:black;
     text-decoration: none; 
     text-align: center;
@@ -139,7 +139,7 @@ ul{
     background-color: #91CA83;
     width: 23%;
     height: 3.3em;
-    top: 10rem;
+    top: 35rem;
     left: 0rem;
     text-align: center;
     font-size: 1rem;
@@ -158,7 +158,7 @@ ul{
     background-color: #F0CE76;
     width: 23%;
     height: 3.3em;
-    top: 22.5rem;
+    top: 65rem;
     left: 0rem;
     text-align: center;
     font-size: 1rem;
@@ -177,7 +177,7 @@ ul{
     background-color: #EC8989;
     width: 23%;
     height: 3.3em;
-    top: 35rem;
+    top: 95rem;
     left: 0rem;
     text-align: center;
     font-size: 1rem;
