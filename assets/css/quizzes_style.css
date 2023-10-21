@@ -220,15 +220,15 @@ li{
 
 .circulo2{
     background-color: #403D79;
-    border-radius: 2rem;
-    height: 2.5rem;
-    width: 2.5rem;
+    border-radius: 4rem;
+    height: 5.5rem;
+    width: 5.5rem;
     position: relative;
-    top: 7.5rem;
-    right:3.5rem;
+    top: 16rem;
+    right: 7.5rem;
     color: #FDF2E6;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
 }
 
 .proximo{
@@ -278,15 +278,14 @@ li{
 }
 
 .letras{
-    background-color: azure;
     display:flex;
     font-size: 4rem;
     flex-direction: column;
-    height: 50rem;
+    height: 44rem;
     width: 3rem;
     justify-content: space-around;
     position: relative;
     left: 4rem;
-    bottom: 23.5rem;
+    bottom: 39rem;
 
 }

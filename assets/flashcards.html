@@ -2,161 +2,111 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <title>Flashcards</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Estudas</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style_geral.css" />
   </head>
   <body>
     <header>
-      <h1>Meus Flashcards</h1>
-      <a href="menu.html">
-        <img 
-          src="img/Icone_menu.png" 
-          alt="Ícone do menu" 
-          width="40" 
-          height="40" 
+      <h1>FlashCards</h1>
+      <a class="hamb" href="menu.html">
+        <img
+          src="img/Icone_menu.png"
+          alt="Ícone do menu"
         />
-        Menu
       </a>
     </header>
     <main>
-      <a href="adicionar_flashcards.html">Adicionar flashcards +</a>
+      <a class="adicionar">Adicionar FlashCard +</a>
+      <ul class="coluna">
+        <li>
+          <a class="resultados" href="flashcard1_anotacao1.html">
+            <p class="resumo">Disciplina 3</p>
+            <p class="espacamento">Anotação 1</p>
+            <p class="espacamento">Última revisão: 12/11</p>
+            <figure>
+              Nível:
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a class="resultados" href="flashcard1_anotacao1.html">
+            <p class="resumo">Disciplina 3</p>
+            <p class="espacamento">Anotação 3</p>
+            <p class="espacamento">Última revisão: 27/10</p>
+            <figure>
+              Avaliação:
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+            </figure>
+          </a>
+        </li>
 
-      <h2>Disciplina 1</h2>
-      <ul>
         <li>
-          <a href="flashcard1_anotacao1.html">
-            <h3>Conjunto de Flashcards 1</h3>
+          <a class="resultados" href="flashcard1_anotacao1.html">
+            <p class="resumo">Disciplina 1</p>
+            <p class="espacamento">Anotação 7</p>
+            <p class="espacamento">Última revisão: 23/10</p>
+            <figure>
+              Avaliação:
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+              <img
+                src="img/estrela.png"
+                alt="Ícone de estrela"
+              />
+            </figure>
           </a>
-          <ul>
-            <li>Conteúdo: Anotação 1</li>
-            <li>Data da última revisão: 01/09/2023</li>
-            <li>Nível de domínio conceitual: Bom</li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 2</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 2</li>
-            <li>Data da última revisão: 03/09/2023</li>
-            <li>Nível de domínio conceitual: Mediano</li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 3</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 3</li>
-            <li>Data da última revisão: 05/09/2023</li>
-            <li>Nível de domínio conceitual: Ruim</li>
-          </ul>
         </li>
       </ul>
-
-      <h2>Disciplina 2</h2>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 1</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 4</li>
-            <li>Data da última revisão: 07/09/2023</li>
-            <li>Nível de domínio conceitual: Mediano</li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 2</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 5</li>
-            <li>Data da última revisão: 09/09/2023</li>
-            <li>Nível de domínio conceitual: Ruim</li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 3</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 6</li>
-            <li>Data da última revisão: 11/09/2023</li>
-            <li>Nível de domínio conceitual: Bom</li>
-          </ul>
-        </li>
-      </ul>
-
-      <h2>Disciplina 3</h2>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 1</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 7</li>
-            <li>Data da última revisão: 13/09/2023</li>
-            <li>Nível de domínio conceitual: Mediano</li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 2</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 8</li>
-            <li>Data da última revisão: 15/09/2023</li>
-            <li>Nível de domínio conceitual: Bom</li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 3</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 9</li>
-            <li>Data da última revisão: 17/09/2023</li>
-            <li>Nível de domínio conceitual: Ruim</li>
-          </ul>
-        </li>
-      </ul>
-
-      <h2>Disciplina 4</h2>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 1</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 7</li>
-            <li>Data da última revisão: 13/09/2023</li>
-            <li>Nível de domínio conceitual: Mediano</li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 2</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 8</li>
-            <li>Data da última revisão: 15/09/2023</li>
-            <li>Nível de domínio conceitual: Bom</li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            <h3>Conjunto de Flashcards 3</h3>
-          </a>
-          <ul>
-            <li>Conteúdo: Anotação 9</li>
-            <li>Data da última revisão: 17/09/2023</li>
-            <li>Nível de domínio conceitual: Ruim</li>
-          </ul>
-        </li>
-      </ul>
-      
     </main>
   </body>
 </html>
