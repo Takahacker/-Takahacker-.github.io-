@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
       setTimeout(() => {
         window.location.href = event.target.getAttribute('href');
-      }, 50000); 
+      }, 70000000); 
     });
   });
 
