@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/quizzes_style.css">
-    <script src="js/menu.js"></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/mecanica_quiz.js" defer></script>
     <title>Estudas</title>
   </head>
   <body>
@@ -14,70 +15,52 @@
         <img
           src="img/Icone_menu.png"
           alt="Ícone do menu"
-          width="40"
-          height="40"
         />
         </a>
     </header>
 
     <p class="titulo roxo">Pergunta 2</p>
 
-
     <ul class="coluna">
       <li>
-        <a class="pergunta2">
-          <p class="espacamento">O que é deslocamento?</p>
+        <a class="pergunta1">
+          <p class="espacamento">Qual é a unidade de medida da força no Sistema Internacional de Unidades?</p>
         </a>
       </li>
 
       <li>
-        <ul class="resposta2">
-            <li class="circulo2">
-                <p>b)</p>
-              </li>
-    
-            <li class="linha">
-                <p><negrito>A força resultante que atua sobre um corpo</negrito></p>
-              </li>
+        <ul class="resposta1">
+          <li id="a" class="linha">
+            <p id = "icone_a" class="roxo">a)</p>
+            <p id = "texto_a" class="espacamento-esquerda"><strong>Pascal</strong></p>
+          </li>
 
-              <li class="linha roxo">
-                <p>A variação da posição de um corpo em relação a um referencial</p>
-              </li>
-        
-              <li class="linha">
-                <p>A quantidade de movimento em um corpo</p>
-              </li>
-        
-              <li class="linha">
-                <p>A velocidade média de um corpo durante um determinado intervalo de tempo</p>
-              </li>
-            
+          <li id="b" class="linha">
+            <p id = "icone_b" class="roxo">b)</p>
+            <p id = "texto_b" class="espacamento-esquerda">Joule</p>
+          </li>
+
+          <li id="c" class="linha">
+            <p id = "icone_c" class="roxo">c)</p>
+            <p id = "texto_c" class="espacamento-esquerda">Newton</p>
+          </li>
+
+          <li id="d"class="linha">
+            <p id = "icone_d" class="roxo">d)</p>
+            <p id = "texto_d" class="espacamento-esquerda">Watt</p>
+          </li>
         </ul>
       </li>
-
-  
-
-      <li class="letras roxo">
-        <p>a)</p>
-        <p></p>
-        <p>c)</p>
-        <p>d)</p>
-      </li>
-
-  
-      
 
       <li class="centro">
         <ul class="proximo">
           <a href="quizz_anotacao1.html">Anterior</a>
         </ul>
       </li>
-      
+
       <li class="finalizar">
         <a href="feedback_revisao_anotacao_1.html">Finalizar</a>
       </li>
-
     </ul>
-
   </body>
 </html>

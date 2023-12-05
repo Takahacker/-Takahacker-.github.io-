@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/quizzes_style.css">
-    <script src="js/menu.js"></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/mecanica_quiz.js" defer></script>
     <title>Estudas</title>
   </head>
   <body>
@@ -20,7 +21,6 @@
 
     <p class="titulo roxo">Pergunta 1</p>
 
-
     <ul class="coluna">
       <li>
         <a class="pergunta1">
@@ -30,32 +30,25 @@
 
       <li>
         <ul class="resposta1">
+          <li id="a" class="linha">
+            <p id = "icone_a" class="roxo">a)</p>
+            <p id = "texto_a" class="espacamento-esquerda"><strong>Cinemática</strong></p>
+          </li>
 
-            <li class="circulo">
-                <p>a)</p>
-            </li>
-            
-            <li class="linha">
-                <p>a)</p>
-                <p class="espacamento-esquerda roxo"><negrito>Cinemática</negrito></p>
-              </li>
+          <li id="b" class="linha">
+            <p id = "icone_b" class="roxo">b)</p>
+            <p id = "texto_b" class="espacamento-esquerda">Eletromagnetismo</p>
+          </li>
 
-        
-              <li class="linha">
-                <p class="roxo">b)</p>
-                <p class="espacamento-esquerda">Eletromagnetismo</p>
-              </li>
-        
-              <li class="linha">
-                <p class="roxo">c)</p>
-                <p class="espacamento-esquerda">Termodinâmica</p>
-              </li>
-        
-              <li class="linha">
-                <p class="roxo">d)</p>
-                <p class="espacamento-esquerda">Óptica</p>
-              </li>
-            
+          <li id="c" class="linha">
+            <p id = "icone_c" class="roxo">c)</p>
+            <p id = "texto_c" class="espacamento-esquerda">Termodinâmica</p>
+          </li>
+
+          <li id="d"class="linha">
+            <p id = "icone_d" class="roxo">d)</p>
+            <p id = "texto_d" class="espacamento-esquerda">Óptica</p>
+          </li>
         </ul>
       </li>
 
@@ -64,12 +57,10 @@
           <a href="quizz_anotacao2.html">Próxima</a>
         </ul>
       </li>
-      
+
       <li class="finalizar">
         <a href="feedback_revisao_anotacao_1.html">Finalizar</a>
       </li>
-
     </ul>
-
   </body>
 </html>
