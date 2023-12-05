@@ -4,22 +4,21 @@
 }
 
 body, html {
-height: 100%;
-margin: 0;
-padding: 0;
-background-color: #FDF2E6;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF2E6;
 }
 
 main {
-position: relative;
-justify-content: center;
-display: flex;
-height: 100%;
-background-color: #403D79;
-width: 70%;
-border-top-right-radius: 7%;
-border-bottom-right-radius: 
-7%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    background-color: #403D79;
+    width: 70%;
+    border-top-right-radius: 7%;
+    border-bottom-right-radius: 7%;
 }
 
 ul {
@@ -42,7 +41,6 @@ ul {
     margin: 0.5rem;
     margin-top: 8rem;
     text-decoration: none;
-
 }
 
 .texto img {
@@ -51,9 +49,9 @@ ul {
 
 .texto:hover {
     text-decoration: underline;
- }
+}
 
-.home{
+.home {
     position: absolute;
     left: 0;
     top: 0;
