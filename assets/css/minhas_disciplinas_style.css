@@ -63,12 +63,13 @@ html, body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Manrope', sans-serif;
+    font-weight: bold;
 
   }
 
 
   .disciplina h2 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
     color: white;
     margin-top: 4rem;
@@ -87,7 +88,7 @@ html, body {
     display: flex;
     align-items: center;
     margin-top: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 2rem;
   }
   
   .disciplina .info li img {
