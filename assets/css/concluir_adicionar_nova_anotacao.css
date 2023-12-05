@@ -10,7 +10,28 @@
     border-radius: 1rem;
     background-color: #403D79;
     font-family: 'Manrope', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    
 }
+
+header {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    background-color: #403d79;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #fdf2e6;
+  }
+
 
 footer{
 flex-direction: column;
@@ -22,6 +43,7 @@ justify-content: space-around;
 .scan-text{
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
@@ -33,4 +55,6 @@ main {
 .title{
     margin-top: 2rem;
     font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
 }

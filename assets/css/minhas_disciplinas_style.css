@@ -130,10 +130,14 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 10rem;
-    height: 4rem;
-    border-radius: 7%;
+    width: 15rem;
+    height: 7rem;
+    border-radius: 10%;
     background-color: #403D79;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
   }
   
   .scan-text {

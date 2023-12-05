@@ -184,7 +184,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 18.75rem;
+    width: 25.75rem;
     height: 7.5rem;
     margin: 1.875rem;
     border-radius: 1rem;
@@ -197,6 +197,8 @@
     color: white;
     text-decoration: none;
     font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
   }
 
   .scan-text:hover {
