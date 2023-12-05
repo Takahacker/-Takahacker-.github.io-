@@ -18,11 +18,11 @@ header{
 
 h1{
     align-items: flex-start;
-    margin-top: 2rem;
+    margin-top: 6rem;
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
     color: #403D79;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 em{
