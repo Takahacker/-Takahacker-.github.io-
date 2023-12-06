@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     novo_quiz = document.createElement("li");
     a_novo_quiz = document.createElement("a");
     a_novo_quiz.classList.add("quizzes");
-    a_novo_quiz.href = "quizz_anotacao1.html";
+    a_novo_quiz.href = "flashcard1_anotacao1.html";
 
     head_caixa = document.createElement("p");
     head_caixa.classList.add("head-caixa");
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     espacamento2 = document.createElement("p");
     espacamento2.classList.add("espacamento");
 
-    head_caixa.textContent = "Novo Quiz";
+    head_caixa.textContent = "Novo Flashcard";
     espacamento.textContent = "Disciplina 1";
     espacamento2.textContent = "Última pontuação: não iniciado";
 

@@ -2,112 +2,56 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <title>Estudas</title>
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style_geral.css" />
+    <link rel="stylesheet" href="css/quizzes_style.css" />
+    <script src="js/flashcards.js"></script>
     <script src="js/menu.js"></script>
+    <title>Estudas</title>
   </head>
   <body>
     <header>
-      <h1>FlashCards</h1>
+      <h1>Flashcards</h1>
       <a class="hamb" href="menu.html">
-        <img
-          src="img/Icone_menu.png"
-          alt="Ícone do menu"
-        />
+        <img src="img/Icone_menu.png" alt="Ícone do menu" />
       </a>
     </header>
-    <main>
-      <a class="adicionar">Adicionar FlashCard +</a>
-      <ul class="coluna">
-        <li>
-          <a class="resultados" href="flashcard1_anotacao1.html">
-            <p class="resumo">Disciplina 3</p>
-            <p class="espacamento">Anotação 1</p>
-            <p class="espacamento">Última revisão: 12/11</p>
-            <figure>
-              Nível:
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-            </figure>
-          </a>
-        </li>
-        <li>
-          <a class="resultados" href="flashcard1_anotacao1.html">
-            <p class="resumo">Disciplina 3</p>
-            <p class="espacamento">Anotação 3</p>
-            <p class="espacamento">Última revisão: 27/10</p>
-            <figure>
-              Avaliação:
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-            </figure>
-          </a>
-        </li>
 
-        <li>
-          <a class="resultados" href="flashcard1_anotacao1.html">
-            <p class="resumo">Disciplina 1</p>
-            <p class="espacamento">Anotação 7</p>
-            <p class="espacamento">Última revisão: 23/10</p>
-            <figure>
-              Avaliação:
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-              <img
-                src="img/estrela.png"
-                alt="Ícone de estrela"
-              />
-            </figure>
-          </a>
-        </li>
-      </ul>
-    </main>
+    <ul>
+      <a class="adicionar" href="#">Adicionar Flashcard +</a>
+    </ul>
+
+    <ul class="coluna">
+      <li>
+        <a class="quizzes" href="flashcard1_anotacao1.html">
+          <p class="head-caixa">Anotação 1- Flashcards 1</p>
+          <p class="espacamento">Disciplina 1</p>
+          <p class="espacamento">Última pontuação: 8/10</p>
+        </a>
+      </li>
+
+      <li>
+        <a class="quizzes" href="flashcard1_anotacao1.html">
+          <p class="head-caixa">Anotação 1- Flashcards 2</p>
+          <p class="espacamento">Disciplina 1</p>
+          <p class="espacamento">Última pontuação: 6/10</p>
+        </a>
+      </li>
+
+      <li>
+        <a class="quizzes" href="flashcard1_anotacao1.html">
+          <p class="head-caixa">Anotação 7- Flashcards 1</p>
+          <p class="espacamento">Disciplina 3</p>
+          <p class="espacamento">Última pontuação: 9/10</p>
+        </a>
+      </li>
+
+      <li>
+        <a class="quizzes" href="flashcard1_anotacao1.html">
+          <p class="head-caixa">Anotação 4- Flashcards 2</p>
+          <p class="espacamento">Disciplina 2</p>
+          <p class="espacamento">Última pontuação: 6/10</p>
+        </a>
+      </li>
+    </ul>
   </body>
 </html>
