@@ -73,6 +73,7 @@
   }
 
   .main {
+    margin-top: 3rem;
     transform: scale(2.25);
     position: relative;
     width: 100%;
