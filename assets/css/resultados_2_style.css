@@ -6,4 +6,10 @@ li{
     font-family: 'Manrope', sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
+    align-items: center;
 }
+
+ul{
+  align-items: center;
+}
+
